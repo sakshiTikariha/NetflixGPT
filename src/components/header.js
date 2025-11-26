@@ -15,7 +15,7 @@ const Header = () => {
   const dispatch = useDispatch();
 
   const user = useSelector((store) => store.user);
-
+  const showGptSearch = useSelector((store) => store.gpt.showGptSearch);
   const handleSignOut = async () => {
     try {
       await signOut(auth);
@@ -82,10 +82,10 @@ const Header = () => {
           </select>
           {/* GPT Search Button */}
           <button
-            onClick={handleGptSearchClick}
-            className="py-2 px-4 bg-purple-800 text-white rounded-lg"
+          onClick={handleGptSearchClick}
+           className="py-2 px-4 bg-purple-800 text-white rounded-lg"
           >
-            GPT Search
+           {showGptSearch ? "Home Page" : "GPT Search"}
           </button>
 
           {/* Avatar */}
