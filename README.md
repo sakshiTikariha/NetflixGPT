@@ -40,8 +40,8 @@ Netflix GPT is a Netflix-inspired web application built using **React** that com
 ## 📦 Installation & Setup
 
 ### 1) Clone the Repository
-git clone https://github.com/sakshiTikariha/NetflixGPT.git
-cd NetflixGPT
+--git clone https://github.com/sakshiTikariha/NetflixGPT.git
+--cd NetflixGPT
 
 ### 2)Install Dependencies
 npm install
