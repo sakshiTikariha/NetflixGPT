@@ -1,30 +1,4 @@
 
-// import MovieCard from './MovieCard'
-
-// const MovieList = ({ title, movies }) => {
-
-//   if (!movies || movies.length === 0) return null;
-
-//   return (
-//     <div className="px-6 py-4 w-full overflow-hidden">
-//       <h1 className="text-2xl font-semibold text-white mb-3">{title}</h1>
-
-//      <div className="overflow-x-auto no-scrollbar">
-//   <div className="flex gap-6">
-//     {movies.map((movie) => (
-//       <MovieCard
-//         key={movie.id}
-//         posterPath={movie.poster_path}
-//         title={movie.title || movie.original_title}
-//       />
-//     ))}
-//   </div>
-// </div>
-//     </div>
-//   );
-// };
-
-// export default MovieList;
 
 import { useRef } from "react";
 import MovieCard from "./MovieCard";

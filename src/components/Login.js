@@ -44,7 +44,7 @@ const Login = () => {
 
       return updateProfile(createdUser, {
         displayName: name.current.value,
-        photoURL: {User_img}
+        photoURL: User_img
       
       });
     })
@@ -161,3 +161,4 @@ const Login = () => {
 };
 
 export default Login
+
